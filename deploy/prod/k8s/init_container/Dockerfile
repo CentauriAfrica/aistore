@@ -1,7 +1,7 @@
 #
 # Dockerfile to build an AIS init container Docker image
 #
-FROM alpine:3.12.3
+FROM alpine:3.18.12
 
 RUN apk add bash curl gettext jq
 
